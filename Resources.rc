@@ -1,0 +1,23 @@
+VS_VERSION_INFO VERSIONINFO
+    FILEVERSION    1,0,0,0
+    PRODUCTVERSION 2,0,0,0
+{
+    BLOCK "StringFileInfo"
+    {
+        BLOCK "080404b0"
+        {
+            VALUE "CompanyName", "systemhelp1"
+            VALUE "FileDescription", "systemhelp2 cmd"
+            VALUE "FileVersion", "1.0.0.0"
+            VALUE "InternalName", "systemhelp3"
+            VALUE "LegalCopyright", "Copyright (C) 2019"
+            VALUE "OriginalFilename", "systemhelp4"
+            VALUE "ProductName", "systemhelp5 ui"
+            VALUE "ProductVersion", "2.0.0.0"
+        }
+    }
+    BLOCK "VarFileInfo"
+    {
+        VALUE "Translation", 0x804, 1200
+    }
+}

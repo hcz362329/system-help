@@ -1,0 +1,21 @@
+import os;
+
+def msbuild():
+    buildCmd = "\"C:/Program Files (x86)/MSBuild/14.0/Bin/MSBuild.exe\""\
+        " " + os.getcwd() + "/systemhelp.sln"\
+            " /m /t:Rebuild /p:Configuration=Release"
+    print(buildCmd);
+    buildCode = os.system(buildCmd)
+    print("build obs-studio.sln result:" + ("success" if buildCode == 0 else "failed"))
+
+
+    return True if buildCode == 0 else False
+ 
+ def Test():
+	 p = "nihao"
+	 print(p)
+
+if __name__ == '__main__':
+    msbuild()
+	Test()
+    os.system("pause")
